@@ -5,7 +5,7 @@
 
 ## 커리큘럼
 최종 목표는 **나의 블로그 만들기**임!
-#### [1일차](./1st.md)
+#### [1일차](./11st.md)
 - Github 소개 및 사용법
 - Pycharm 소개 및 사용법, 그리고 설치
 - [HTML, CSS 개론](https://github.com/haedal-with-knu/WWW/blob/master/documents/4.css_bootstrap.md)
