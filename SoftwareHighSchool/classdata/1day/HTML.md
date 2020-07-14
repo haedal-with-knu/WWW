@@ -1,5 +1,5 @@
 # HTML
-![htmlisnotaprogramminglanguage](../statics/html_is_not_a.jpg)
+![htmlisnotaprogramminglanguage](../../statics/html_is_not_a.jpg)
 
 ~~프로그래머를 괴롭히는 방법~~
 
