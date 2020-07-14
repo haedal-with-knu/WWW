@@ -34,5 +34,5 @@ PATH만 추가해주면 된다.
 
 ![GitBashSetting](../statics/pycharm/git_bash_setting.png)
 
-### [돌아가기](../Softwarehighschool.md)
+### [돌아가기](../11st.md)
 
