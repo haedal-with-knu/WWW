@@ -1,4 +1,4 @@
-# 파이참을 설치 및 세팅
+# 파이참 설치 및 세팅
 
 ## 파이참 설치
 [다운로드는 여기](https://www.jetbrains.com/ko-kr/pycharm/)
@@ -34,4 +34,5 @@ PATH만 추가해주면 된다.
 
 ![GitBashSetting](../statics/pycharm/git_bash_setting.png)
 
+### [돌아가기](../Softwarehighschool.md)
 
