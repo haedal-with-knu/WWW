@@ -94,9 +94,17 @@ br태그는 강<br>제개행을 할 때 쓰입니다. 개행은<br>엔터라고 
 ```
 #### &lt;input&gt;
 ```
-<input 
+        <input type="text">
+        <input type="text" value="이름">
+        <input type="password">
+        <input type="submit" value="제출">
+        <p>당신의 성별은 무엇입니까?</p>
+        <input type="radio" name="gender" value="남성">남성
+        <input type="radio" name="gender" value="여성">여성
+        <input type="radio" name="gender" value="기타">기타
 ```
-input 태그의 활용은 정말로 정말로 무궁무진 하기 때문에 여기서 모두 설명할 수 없고, radio나 password 등 굵직굵직한 type들만 설명하도록 하겠다. 자세한 사항은 아래 사이트 참조
+input 태그의 활용은 정말로 정말로 무궁무진 하기 때문에 여기서 모두 설명할 수 없고, radio나 password 등 굵직굵직한 type들만 보여주었다. 사실 모든 type을 어떻게 쓰는지 세세하게 알고 있을 필요는 딱히 없고,
+아! 이런 type도 있었지.. 정도만 기억하고 있다가 실제로 사용할 때 구글링해서 쓰면 됩니다.
 
 [w3schools에서 설명하는 input type 속성값 종류](https://www.w3schools.com/html/html_form_input_types.asp)  
 [HTML - input태그와 그 속성 type, value, name - 입력태그 (1)](https://yangbari.tistory.com/28)  
