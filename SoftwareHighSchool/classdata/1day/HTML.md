@@ -103,9 +103,49 @@ br태그는 강<br>제개행을 할 때 쓰입니다. 개행은<br>엔터라고 
         <input type="radio" name="gender" value="여성">여성
         <input type="radio" name="gender" value="기타">기타
 ```
-input 태그의 활용은 정말로 정말로 무궁무진 하기 때문에 여기서 모두 설명할 수 없고, radio나 password 등 굵직굵직한 type들만 보여주었다. 사실 모든 type을 어떻게 쓰는지 세세하게 알고 있을 필요는 딱히 없고,
-아! 이런 type도 있었지.. 정도만 기억하고 있다가 실제로 사용할 때 구글링해서 쓰면 됩니다.
+input 태그의 활용은 정말로 정말로 무궁무진 하기 때문에 여기서 모두 설명할 수 없고, radio나 password submit 등 굵직굵직한 type들만 보여주었다. 사실 모든 type을 어떻게 쓰는지 세세하게 알고 있을 필요는 딱히 없고,
+아! 이런 type도 있었지.. 정도만 기억하고 있다가 실제로 사용할 때 구글링해서 쓰시면 됩니다.
 
 [w3schools에서 설명하는 input type 속성값 종류](https://www.w3schools.com/html/html_form_input_types.asp)  
 [HTML - input태그와 그 속성 type, value, name - 입력태그 (1)](https://yangbari.tistory.com/28)  
 [HTML - input태그의 추가된 속성과 type 속성에 추가된 값 - 입력태그 (2)](https://yangbari.tistory.com/29)
+
+### 무작정 섞어보기
+이때까지 배운 것들을 죄다 한군데 넣어서 써보자! 아래는 그냥 예시일 뿐이다! 복사 붙여넣기 하지 말고 귀찮더라도 직접 해보자!
+```
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset='utf-8'>
+    <title>MY FIRST HTML</title>
+    </head>
+
+    <body>
+    <h1>나의 첫 번째 페이지</h1>
+    <a href="https://www.naver.com" target="_blank"><img src="C:\Users\Joowon\Desktop\솦고\문서작성\html\mindsound.png"></a>
+    <input type="text">
+    <input type="text" value="이름">
+    <input type="password">
+    <input type="submit" value="제출">
+    <p>당신의 성별은 무엇입니까?</p>
+    <input type="radio" name="gender" value="남성">남성
+    <input type="radio" name="gender" value="여성">여성
+    <input type="radio" name="gender" value="기타">기타<br>
+    
+    <p>당신의 이름은?</p>
+    <ol>
+        <li><mark>일번</mark>용</li>
+        <li>이번용</li>
+    </ol>
+    <p>순서가 없는것은?</p>
+    <ul>
+        <li><mark>없어</mark>용11</li>
+        <li>없어용22</li>
+    </ul>
+    
+    </body>
+</html>
+```
+
+#### 실행 화면
+![실행화면](../../statics/classdata/html/html_example.png)
