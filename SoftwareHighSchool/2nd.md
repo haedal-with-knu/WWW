@@ -1,7 +1,7 @@
 # 2일차
 
 ### CSS
-![CSS_logo](./statics/CSS_logo.png)
+![CSS_logo](./statics/CSS_logo.png)  
 **C**asacding **S**tyle **S**heet  
 지난 시간에 우리는 HTML을 활용해 기본적인 페이지를 만들어 보았다. 하지만 당신은 네이버나 유튜브처럼 뭔가 삐까뻔쩍한 것을 기대했을 것이다(아니면 말고). 이를 타파하기 위해 CSS가 필요한 것이다! 아래와 같이 이해하면 편할 것이다. 
 

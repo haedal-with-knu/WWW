@@ -57,8 +57,9 @@ HTML문서에 CSS를 적용하는 방법에는 크게 3가지의 방법이 있�
 ```
 <div style="color: blue">깔깔쓰</div>
 ```
-2. Internal Style Sheet(문서 `<head>`내부에 `<style>`태그를 삽입)
+2. Internal Style Sheet(html 문서 `<head>`내부에 `<style>`태그를 삽입)
 ```
+...
 <head>
 ...
 <style>
@@ -77,10 +78,14 @@ index.html
 <link rel=:"stylesheet" href="style.css">
 ...
 
-style.css 문서
+
+style.css
 div{
     color: blue;
 }
 ```
 
 본인이 생각하기에 적당한 방법을 사용하면 되지만.. 보통은 3번이 재사용이 가능하고 유지보수가 용이한 연유로 많이 사용된다.
+
+#### 실습과제
+[자기소개카드 만들기](https://github.com/haedal-with-knu/instuctorTraining/blob/master/challenge/A.HTML_CSS_mycard.md)
