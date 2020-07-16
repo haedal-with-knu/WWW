@@ -7,19 +7,23 @@
 최종 목표는 **Jekyll을 활용한 나의 블로그 만들기**임!
 #### [1일차](./11st.md)
 오전
-- Github 소개 및 사용법
+- Github, Pycharm 설치 및 사용법 소개
 
 오후
-- Pycharm 소개 및 사용법, 그리고 설치
+- 처음으로 만들어보는 나만의 페이지(HTML 태그 소개 및 실습)
 - [HTML, CSS 개론](https://github.com/haedal-with-knu/WWW/blob/master/documents/4.css_bootstrap.md)
 #### [2일차](./2nd.md)
 오전
+- 나만의 페이지 꾸미기!(CSS 뭐시깽이 소개 및 실습)
 - [어크만과 뱅뱅의 트게더 도장깨기](https://github.com/haedal-with-knu/make_tgd)
 - [배운 HTML과 CSS를 활용해 자기소개 카드 제작](https://github.com/haedal-with-knu/instuctorTraining/blob/master/challenge/A.HTML_CSS_mycard.md)
-- django와 프레임워크 
+
+오후
+- django와 프레임워크
+- 부트스트랩을 활용한 자기소개 페이지 제작
 #### [3일차](./3rd.md)
 오전
-- Github Pages 소개(레포 작성 및 화면 띄우기 FLASK or DJANGO (hello world?))
+- Github Pages 소개(레포 작성 및 화면 띄우기 부트스트랩+django)
 
 오후
 - [부트스트랩을 활용해 자기소개 페이지 제작](https://github.com/haedal-with-knu/WWW/blob/master/documents/6.introductionWeb.md)
