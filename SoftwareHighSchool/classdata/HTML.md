@@ -149,3 +149,33 @@ input 태그의 활용은 정말로 정말로 무궁무진 하기 때문에 여�
 
 #### 실행 화면
 ![실행화면](../statics/classdata/html/html_example.png)
+
+### HTML의 시맨틱 태그
+```
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>haedal</title>
+    <style type="text/css">
+    body{width:440px;}
+    header, nav, section, article, aside, footer{display:block; width:400px; margin:4px; padding:4px; background-color:#dbdbdb; text-align:center; border-radius: 5px}
+    section{float:left; width:280px; height:200px;}
+    article{width:264px; background-color:#efefef; height:164px; line-height: 164px; border-radius: 5px}
+    aside{float:left; width:104px; height:200px; line-height: 200px}
+    footer{overflow:hidden;}
+    </style>
+</head>
+<body>
+    <header>header</header>
+    <nav>nav</nav>
+    <section>
+    section
+        <article>article</article>
+    </section>
+<aside>aside</aside>
+<footer>footer</footer>
+</body>
+</html>
+```
+![html구조](../statics/classdata/html/html_structure.png)  
+대충 위와 같은 구조로 body가 이루어져 있다는 사실을 알 수 있을 것이다.
