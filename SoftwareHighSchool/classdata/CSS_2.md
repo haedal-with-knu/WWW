@@ -79,6 +79,8 @@ overflow:hidden;
 마지막으로 살펴볼 것은 `article`부분이다. 위 코드에서 `article`, `.article`, `#article`이 있다.  
 이전 시간에 배웠던 것처럼 선택자에는 `class`와 `id`를 사용해 세부 스타일을 지정할 수 있다.  
 위 코드에서는 모두 `article`처럼 보이지만 `id=article`인 부분은 `hotpink`색으로 지정되고, `class=article`인 부분은 `skyblue`색으로 지정된다.  
+위 코드를 모두 따라했다면 최종적으로는 아래와 같이 나타남을 확인할 수 있다!  
+![sementic](../statics/classdata/css/sementic2.PNG)  
 
 지금까지 따라해본 내용을 바탕으로 아래 내용을 직접 만들어보자!
 #### 실습과제
