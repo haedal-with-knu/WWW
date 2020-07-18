@@ -27,14 +27,14 @@
 
 오후
 - [부트스트랩을 활용해 자기소개 페이지 제작](https://github.com/haedal-with-knu/WWW/blob/master/documents/6.introductionWeb.md)
-#### [4일차](./4st.md)
+#### [4일차](./4th.md)
 오전
 - jekyll 소개 및 활용법
 
 오후
 - JS?
 - 지킬 활용한 블로그 제작
-#### [5일차](./5st.md)
+#### [5일차](./5th.md)
 오전
 - DNS 소개 및 사용법
 
