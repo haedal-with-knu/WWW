@@ -57,4 +57,26 @@ HTML 또는 Markdown으로 글을 작성하면 미리 정의해 놓은 규칙에
 ```
 ruby -v
 ```
-를 치면 현재 설치된 `ruby`의 버전이 나오게 된다.
+를 치면 현재 설치된 `ruby`의 버전이 나오게 된다. 현재 설치된 버전을 확인해보면
+```
+ruby -v
+ruby 2.6.6p146 (2020-03-31 revision 67876) [x64-mingw32]
+```
+라고 나올 것이다. 위처럼 나오지 않았다면 뭔가 잘못 설치했을 확률이 높기 때문에 다시 찬찬히 확인해 보도록 하자.
+
+일단 `jekyll` 및 기타 라이브러리들을 사용하기 위해 몇 가지를 Terminal 창에서 install 해주자.
+```
+gem install jekyll
+gem install jekyll-feed
+gem install bundle
+gem install github-pages
+gem install tzinfo-data
+``` 
+처음부터 블로그를 만들기는 대단히 어려운 작업이기 때문에, 다음 사이트들을 참고하여 마음에 드는 테마를 구하자. 이번 수업에서는 편의를 위해 다음 테마()를 사용할 것이다.  
+[테마](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll)
+
+[https://github.com/topics/jekyll-theme](https://github.com/topics/jekyll-theme)  
+[http://jekyllthemes.org/](http://jekyllthemes.org/)  
+[https://jekyllthemes.io/free](https://jekyllthemes.io/free)  
+[http://themes.jekyllrc.org/](http://themes.jekyllrc.org/)  
+마음에 드는 테마를 찾아보십쇼
