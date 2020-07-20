@@ -174,6 +174,7 @@ TEST 중
 (내가 만든 블로그 예시)
 
 ### `markdown` 문법
+![markdown](./#)
 헌데 이때까지 배웠던 `.html` 말고 웬 이상한 `.md` 파일을 작성해야 한다는 것을 느꼈을 것이다.
 못 느꼈다고? 거짓말하지 마라. 다 알고 있다... 뭔가 이상했다고 해줘..
 
@@ -314,3 +315,8 @@ _기울여서 쓰다가 **볼드로 쓰다가** 다시 기울여서 쓰기_
 
 + Prose.io
 + StackEdit
++ [typora](https://typora.io/) : 가장 유명한 `markdown` 편집기. 가볍고, 예쁘다.
+
+### 대망의 markdown 연습
+아무 markdown 입력기(pycharm, typora 등)나 이용해 마크다운 문서를 작성하여 다음처럼 출력하시오~   
+![example](./statics/classdata/example.PNG)
