@@ -72,11 +72,100 @@ gem install bundle
 gem install github-pages
 gem install tzinfo-data
 ``` 
-처음부터 블로그를 만들기는 대단히 어려운 작업이기 때문에, 다음 사이트들을 참고하여 마음에 드는 테마를 구하자. 이번 수업에서는 편의를 위해 다음 테마()를 사용할 것이다.  
-[테마](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll)
+처음부터 블로그를 만들기는 대단히 어려운 작업이기 때문에, 다음 사이트들을 참고하여 마음에 드는 테마를 구하자. 하지만 이번 수업에서는 편의를 위해 완성되어 있는 블로그를 사용할 것이다.  
 
 [https://github.com/topics/jekyll-theme](https://github.com/topics/jekyll-theme)  
 [http://jekyllthemes.org/](http://jekyllthemes.org/)  
 [https://jekyllthemes.io/free](https://jekyllthemes.io/free)  
 [http://themes.jekyllrc.org/](http://themes.jekyllrc.org/)  
-마음에 드는 테마를 찾아보십쇼
+Minima, Clean Blog 등 유명한 테마들이 포함되어 있다. Jekyll은 구글에 자료가 많은 편이므로, 구글링을 통해 각 테마를 사용하는 법을 익히도록 하자.
+
+#### 완성된 블로그 베끼기(!)
+우리가 참고할 [블로그 주소](https://theorydb.github.io/)이고,  
+[블로그 깃헙 주소](https://github.com/theorydb/theorydb.github.io)를 눌러보자.
+
+![githubfork](./statics/classdata/jekyll/githubfork.png)  
+fork를 누르고, 나의 repository를 선택해주면 나의 repository에 fork된다. 그 후, fork한 나의 repository에 들어가서 톱니바퀴 모양을 눌러 설정 창으로 들어가자. 다음과 같은 창이 나올 것이다.  
+![forksetting](./statics/classdata/jekyll/forksetting.PNG)  
+빨간색 네모 친 부분(repository name)을 `username.github.io`로 바꿔주자. 본인의 username은 Joo-ra-n 이기 때문에
+```
+Joo-ran.github.io
+```
+로 설정해주었다. 그 후 오른쪽의 `Rename` 버튼을 클릭해주면 repository name이 성공적으로 변경할 수 있다. 아래쪽의 Issue 부분에만 체크해 주고, 주소창에
+```
+https://username.github.io
+```
+를 입력하면...  
+![githubpages404error](./statics/classdata/jekyll/githubfork.png)  
+404 에러가 뜬다! Github Pages에 리얼타임으로는 반영이 되지 않으므로 잠시 기다려 주도록 하자. 잠시 기다린 후 다시 주소를 쳐보면..
+
+![githubpageswelldone](./statics/classdata/jekyll/githubpageswelldone.png)  
+원래의 블로그를 잘 베껴온 모습이다. 이로써 내용물은 남의 것이지만, 어쨌든 내 username으로 된 블로그가 하나 생겼다. 이제 이 블로그를 내 입맛에 맞게 조금씩 바꾸어나가는 작업을 하게 될 것이다.. 
+
+이제 이 베껴온 블로그를 로컬에서 편집하기 위해 Pycharm을 켜고, terminal에 다음과 같이 입력해주자.
+```
+git clone https://github.com/"username".github.io // 본인 repository를 로컬로 clone
+...
+cd "username".github.io                           // "username".github.io로 경로 변경
+bundle install                                    // ???
+bundle exec jekyll serve                          // jekyll 블로그 로컬서버 오픈
+```
+이렇게 하면 localhost 주소인 `127.0.0.1:4000`으로 아까 github pages에서 보았던 것과 같은 페이지가 열리게 된다.
+앞으로 우리는 pycharm에서 파일들을 수정한 뒤, 로컬 서버에서 확인해 보고 문제가 없으면 github에 push하는 식으로 블로깅을 진행할 것이다.
+
+ctrl+c를 눌러 일단 서버를 닫고, 무엇을 수정해야 하는 지 알아보자.
+
+##### 1. 변경해야 하는 것
++ _featured_tags/ : 블로그 포스팅 게시판 대분류
++ _featured_categories/ : 블로그 포스팅 게시판 소분류
++ _data/ : 개발자 및 기타 정보 폴더(author.yml 파일 또한 수정 필요)
++ _config.yml : 블로그의 환경변수를 설정하는 파일. 기본적인 블로그 세팅 담당
++ README.md : github 소스 페이지에 뜨는 문서이자, About 메뉴 클릭 시 나타나는 블로그 소개글
+
+##### 2. 변경하면 좋은 것
++ assets/ : 이미지, CSS 등을 저장한 폴더(여기에서 검색 이미지도 바꿀 수 있음)
++ _layouts/ : 포스트 외부의 틀을 정하는 폴더(페이지, 구성요소 등 UXUI 변경 시 수정 필요)
++ _includes/ : 기본 페이지 폴더(여기에선 footer를 바꿀 수 있다)
++ Gemfile.lock : Gemfile에 기록한 라이브러리를 설치 후 기록하는 파일(중복 설치 방지)
++ .gitignore : github에 올리고 싶지 않은 파일들을 적어 놓은 리스트
++ sitemap.xml : 테마의 사이트맵
++ robots.xml : 검색엔진 수집 등에 대한 정책을 명시하는 설정 파일
++ posts.md : 포스트 작성 관련 설정 파일
+
+##### 3. 뭐가 있는지 확인만 하자
++ _posts. : 실제 글을 쓰는 폴더
++ index.html : 블로그의 메인 페이지(최초 접속 시 뜨는 페이지)
++ 404.md : 404 Not Found Error가 떴을 때 페이지
+
+[지킬 한글화 공식 페이지](http://jekyllrb-ko.github.io/docs/structure/)를 참고해서 뭐가 있는지 보면 된다(사실 이 글이 좀 더 자세함)
+
+일단 `_featured_categories/`, `_featured_tags` 파일들을 수정해서 전체적인 블로그의 틀을 잡는 것이 좋다.
+내가 블로그를 어떤 식으로 운영할 지 생각해 보고 기존의 게시판들을 갈아엎은 후에 나의 입맛에 맞게 게시판 구조를 바꾸자.
+그 후 `_posts` 폴더의 포스트들을 한 개(참고용)을 제외하고 전부 삭제한 후, 일단 나만의 게시물을 하나 쓰면 된다.
+다음은 본인이 시험삼아 한 번 작성해 본 것이다.
+```
+2020-07-20-etcetera-myfirstpost.markdown
+
+---  
+layout: post  
+title: "[기타] 나의 첫 번째 포스팅"  
+subtitle: "내 블로그에 첫 번째 글을 써보자"  
+categories: etcetera  
+tags: 블로깅 마크다운 지킬
+comments: true  
+---  
+  
+> 원래의 블로그 글을 참고하여 나의 첫 번째 포스팅을 해보자.  
+
+---
+나의 첫 번째 블로그 글
+
+TEST 중
+
+```
+그러면 기존의 글(남의 것)이 다 사라지고, 일단 내가 방금 쓴 글만 블로그에 있게 된다.
+이제 뭔가 나만의 블로그같은 느낌이 들지 않는가? ~~아님 말고...~~
+
+그리고 이제 좌측 바 배경, 전체 배경, favicon, logo, footer 정도를 바꿔주면 꽤 그럴듯해 보이게 되는데, 이것들은 `_config.yml` 파일과, `assets` 폴더에서 관리할 수 있다.
+`_config.yml` 파일을 열어보면 뭔가 주루루루루룩 나오는데 여기에 있는 영어로 된 설명을 잘 읽어보고 하나하나 바꿔보면 된다.
+세세하게 설명을 해 주고 싶지만.. 개인마다 원하는 바가 조금씩 다르기 때문에 보이는 부분(프론트엔드)와 코드 부분(백엔드)를 비교해 가면서 바꿔 보는 게 가장 좋다고 생각하는 바이다.
