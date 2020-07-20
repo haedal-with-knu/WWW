@@ -315,3 +315,8 @@ _기울여서 쓰다가 **볼드로 쓰다가** 다시 기울여서 쓰기_
 
 + Prose.io
 + StackEdit
++ [typora](https://typora.io/) : 가장 유명한 `markdown` 편집기. 가볍고, 예쁘다.
+
+### 대망의 markdown 연습
+아무 markdown 입력기(pycharm, typora 등)나 이용해 마크다운 문서를 작성하여 다음처럼 출력하시오~   
+![example](./statics/classdata/example.PNG)
