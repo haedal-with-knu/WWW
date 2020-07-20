@@ -27,7 +27,7 @@ DNS란 `Domain Name System`의 약자로, 쉽게 말해서 도메인 주소와 �
 ![domain](./statics/classdata/5th/domain.PNG)  
 
 이렇게 원하는 도메인을 검색해보면 사용할 수 있는 도메인의 목록이 나온다!  
-물론 무료도메인이기 떄문에 예쁜것은 없다... 맘에 드는 것을 선택하자.  
+물론 무료도메인이기 때문에 예쁜것은 없다... 맘에 드는 것을 선택하자.  
 선택한 후 보안코드를 입력하고 등록을 하면 아래와 같은 페이지가 나온다.  
 
 ![domain2](./statics/classdata/5th/domain2.PNG)  
@@ -46,10 +46,38 @@ IP주소를 입력하면 된다.
 대표적인 검색엔진인 `네이버`와 `구글`에 우리 사이트를 알려보자.  
 
 먼저 국민 사이트 네이버부터 등록해보자  
-[네이버 사이트 등록](https://searchadvisor.naver.com/)  
+[네이버 서치 어드바이저](https://searchadvisor.naver.com/)  
+위 사이트에 접속한 후 먼저 오른쪽 위에 로그인을 눌러 네이버 아이디로 로그인하고 정보이용 동의를 체크한다.  
+정보이용 동의를 체크했다면, 스크롤을 조금 아래로 내려서 `웹마스터 도구 사용하기`버튼을 클릭한다.  
 
-구글은 ‘구글 웹마스터 도구’라는 웹사이트 관리툴을 제공한다.  
-[구글 사이트 등록](https://search.google.com/search-console/about?hl=ko)   
+![naver_web](./statics/classdata/5th/naver_web.PNG)  
+
+그 다음 나오는 창에서 우리가 만든 사이트 도메인을 입력한다.  
+
+![regist_site](./statics/classdata/5th/regist_site.PNG)  
+
+등록을 하면 본인이 소유한 사이트인지 확인절차를 가지는데,  
+두가지 방법 모두 사용할 수 있지만 간편한 방법인 `HTML 태그`를 통해서 등록해보자.  
+
+![naver_confirm](./statics/classdata/5th/naver_confirm.PNG)  
+
+`<meta>`태그의 내용을 복사해서 우리가 가진 `index.html`의 `<head>`태그의 아랫부분에 붙여넣는다.  
+
+![naver_index](./statics/classdata/5th/naver_index.PNG)  
+
+붙여넣었다면 다시 Github으로 `push`해준다.  
+우리가 호스팅하는 페이지에서 `F12`를 눌러서 `<head>`태그에서 `<meta naver ...>`태그가 정상적으로 추가되었는지 확인한다.  
+확인되었다면, `소유확인`을 눌러 등록을 완료한다!  
+이제 우리는 네이버에서 검색어를 통해 우리가 호스팅하는 페이지를 찾을 수 있다!  
+물론 등록하는데에 시간이 조금 걸릴 수 는 있으니 차분히 기다려보자...  
+
+이번에는 구글이다.  
+구글도 마찬가지로 ‘구글 웹마스터 도구’라는 웹사이트 관리툴을 제공한다.  
+[구글 웹마스터 도구](https://search.google.com/search-console/about?hl=ko)   
+위 사이트에서 `시작하기`를 누르면 도메인주소를 넣는 공간이 나온다.  
+ 
+
+
 사이트를 등록하면 구글 검색결과에 사이트가 노출된다.
 사이트를 등록하면 검색 시 사이트의 내용을 가져다 검색결과에 보여 준다.  
 사이트의 내용은 사이트를 구성하는 여러 개의 웹페이지를 말하는데,  
