@@ -17,13 +17,13 @@
 이번 시간에는 자기소개페이지를 만들 것이므로 `username.github.io`프로젝트를 열어서  
 `.zip`안의 파일을 모두 프로젝트 안으로 옮겨준다.  
 
-![boot](../statics/classdata/boot/bootstrap1.png)  
+![boot](../statics/classdata/boot/bootstrap1.PNG)  
 
 자 그럼 `index.html`파일을 열어보자.  
 그러면 페이지가 나타나는데, 앞으로 우리는 이 파일을 바꾸어서 자기소개 페이지를 만들 것이다.  
 그러면 우리가 파일의 어떤 부분을 바꾸어야 페이지가 바뀔까? 구글을 기준으로 `F12`를 눌러보자.  
 
-![boot](../statics/classdata/boot/refactor_title.png)  
+![refactor_title](../statics/classdata/boot/refactor_title.png)  
 
 그러면 위와 같은 창이 나타날텐데, 오른쪽 위에 표시된 것과 같이 사각형에 커서가 있는 아이콘을 누른 후,  
 우리가 바꾸고 싶은 영역을 클릭해보자. `HI, I AM ...`부분을 바꿀 것이므로 이 영역을 눌러보도록 하겠다.
@@ -32,7 +32,7 @@
 영역을 확인했다면 `index.html`로 돌아와서 우리가 확인한 영역을 바꿔보자.  
 
 ![rename](../statics/classdata/boot/renamed.png)  
-![rename2](../statics/classdata/boot/renamed2.png)  
+![rename2](../statics/classdata/boot/renamed2.PNG)  
 
 글자를 바꾸었다면, 이번에는 사진도 바꾸어보자.  
 
@@ -71,7 +71,7 @@
 ```  
 위 코드로 구성되어 있음을 알 수 있다. 여기서 `fa`란 `font-awesome`의 약자인데 웹 폰트나 아이콘을 제공해주는 툴킷이다.  
 이 글을 쓰는 현재 6버전까지 나와있고, 이 부트스트랩 템플릿에서는 4.7버전을 사용하고 있다.  
-![fa_v](../statics/classdata/boot/fa_v.png)  
+![fa_v](../statics/classdata/boot/fa_v.PNG)  
 
 4.7버전에서 사용할 수 있는 아이콘들을 구글에 검색해보자.  
 

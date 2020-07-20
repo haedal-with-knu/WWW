@@ -118,7 +118,7 @@ Bootstrap에서 제공하는 버튼들은 class를 통해 `btn btn-default`등�
 ```  
 
 위 코드들을 모두 적용한 페이지의 모습은 아래와 같다.  
-![bootstrap2](./statics/classdata/boot/bootstrap2.png)  
+![bootstrap2](./statics/classdata/boot/bootstrap2.PNG)  
 
 부트스트랩에서 제공하는 색들을 확인할 수 있다.  
 `primary`는 파랑, `danger`는 빨강 등과 같이 여러가지 색을 이름을 통해 사용할 수 있다.  
