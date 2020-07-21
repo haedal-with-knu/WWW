@@ -1,7 +1,9 @@
 # 1일차
 ## Github 그리고 파이참
 ![깃헙마스코트](./statics/github_mark.png)  
-GitHub 마스코트 octocat. 고양이와 문어를 합쳐놨다. 상당히 유명한 무료 Git 저장소로, 현재 해달프로그래밍에서 프로젝트를 진행할 때는 이 Guthub을 꼭 사용한다고 봐도 무방하다.    
+GitHub 마스코트 octocat. 고양이와 문어를 합쳐놨다. 상당히 유명한 무료 Git 저장소로, 현재 해달프로그래밍에서 프로젝트를 진행할 때는 이 Guthub을 꼭 사용한다고 봐도 무방하다.
+[여기](./etc/how_to_use_github.md)서 간단한 git 명령어와 github 사용법을 알아보도록 하자.
+
 ![파이참로고](./statics/pycharm_logo.jpg)  
 파이참 로고. 사실 무슨 뜻인지 잘 모르겠고 다운로드와 설치 및 세팅법은 [여기](./etc/how_to_install_pycharm.md)서 할 수 있다.
 
@@ -19,10 +21,8 @@ HTML 코드 예시
 
 ![총학메인](./statics/ch_main.png)
 
-
 이 수업을 듣는 당신도 멋들어진 페이지를 제작할 수 있게 될 것이다.
 
 
 ### [HTML 문서](./classdata/HTML.md)
 
-### ~~JavaScript를 제가 하고 싶을까요?~~
