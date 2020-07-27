@@ -173,8 +173,12 @@ TEST 중
 ![jekyllblogdone](./statics/classdata/jekyll/jekyllblogdone.png)  
 (내가 만든 블로그 예시)
 
+마지막으로.. DISQUS라는 API를 이용하여 포스트의 댓글 기능을 구현할 텐데, ~~고맙게도~~ 블로그 원래 주인 분께서 잘 짜 놓으셔서 처음에는 DISQUS API가 포스팅 하단에 잘 붙어 있을 것이다.
+하지만 `_config.yml` 파일의 `shortname` 부분을 수정해야 진정 내 블로그에 내 DISQUS가 붙게 되는데, 이를 위해서는 DISQUS 가입과 신뢰할 수 있는 사이트 추가만 해주면 된다.
+[여기](https://disqus.com/admin/settings/advanced/)를 누르고, 아래쪽 I wanna... 뭐시기를 누르면 초기 페이지 설정이 뜨는데, 거기에 trusted domain에 `"username".github.io`를 추가해 주면 DISQUS가 포스팅 하단에 잘 붙는 것을 확인할 수 있을 것이다.   
+ 
 ### `markdown` 문법
-![markdown](./#)
+![markdown](./statics/markdown.png)  
 헌데 이때까지 배웠던 `.html` 말고 웬 이상한 `.md` 파일을 작성해야 한다는 것을 느꼈을 것이다.
 못 느꼈다고? 거짓말하지 마라. 다 알고 있다... 뭔가 이상했다고 해줘..
 
@@ -315,3 +319,8 @@ _기울여서 쓰다가 **볼드로 쓰다가** 다시 기울여서 쓰기_
 
 + Prose.io
 + StackEdit
++ [typora](https://typora.io/) : 가장 유명한 `markdown` 편집기. 가볍고, 예쁘다.
+
+### 대망의 markdown 연습
+아무 markdown 입력기(pycharm, typora 등)나 이용해 마크다운 문서를 작성하여 다음처럼 출력하시오~   
+![example](./statics/classdata/example.PNG)
