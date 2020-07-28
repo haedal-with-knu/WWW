@@ -329,4 +329,4 @@ urlpatterns = [
 앞에서 배웠던 프론트엔드 속성을 이용해서 예쁘게 꾸민다면  
 진짜 게시판처럼 사용할 수 있을것이다.
 ## 다음 강의는
-### [4. 이미지 업로드](https://github.com/haedal-with-knu/djangoBootcamp/blob/master/uploadImg.md)
+### [4. 게시글 업그레이드](django3.md)
