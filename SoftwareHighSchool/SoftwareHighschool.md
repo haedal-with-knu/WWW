@@ -41,3 +41,10 @@
 오후
 - 네이버 구글 검색 가능하도록
 - 애널리틱스 등록
+--------
+
+[솦고1](Software.md)  
+[솦고2](Software2.md)  
+[솦고3](Software3.md)  
+[솦고4](Software4.md)  
+[솦고5](Software5.md)  
