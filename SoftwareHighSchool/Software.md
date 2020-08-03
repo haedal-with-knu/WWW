@@ -8,13 +8,13 @@ GitHub 마스코트 octocat. 고양이와 문어를 합쳐놨다. 상당히 유�
 #### Github 사용법 및 Git 명령어
 Github의 repository 생성, 다른 사용자의 repository fork 등 Github의 사용법과, 터미널에서 사용 가능한 Git 명령어에 대해 알아보자.
 
-###### [Github](https://github.com)  
+##### [Github](https://github.com)  
 `깃헙` 또는 `깃허브` 라고 읽는, 위 사이트에 들어가서 가장 먼저 무엇을 해야할 지 생각해보자. 모르겠다고?  
 　  
 　    
 　   
 　      
-![ikhyunsim](../statics/simikhyun.png)
+![ikhyunsim](./statics/simikhyun.png)
 
 ...
 일단 Sign up(회원가입ㅎ) 부터 하도록 하자. username은 깃헙에서 앞으로 계속 쓰게 될 이름이고, 추후 만들 `Github Pages`의 주소와 직결되는 부분이기 때문에 간단하고도 예쁘게 지어주도록 하자.
@@ -25,7 +25,7 @@ Github의 repository 생성, 다른 사용자의 repository fork 등 Github의 �
 > 버전 관리 시스템, Version Control System
 >
 **버전 관리, 소스 관리, 소스코드 관리**라 함은 동일한 정보에 대해 여러 버전을 관리하는 것을 말한다. 다음과 같은 경험이 있는가? ~~없다고? 멍청한 놈!~~  
-![jjinlast](../statics/jjinlast.jpg)  
+![jjinlast](./statics/jjinlast.jpg)  
 위 사진이 바로 **같은 정보**에 대한 **여러 버전**의 대표적인 예라고 할 수 있다. 팀 단위로 개발할 때 소스코드의 관리를 위해 주로 사용한다.
 
 #### 버전 관리를 해야 하는 이유
