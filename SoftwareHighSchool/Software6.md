@@ -51,12 +51,14 @@ html문서의 body 부분을 다음과 같이 작성해 보자.
     document.write(b, "<br>");
     document.write(c, "<br>");
     document.write(d, "<br>");
+</script>
 ```
 ##### example - 문자 결합 연산자
 ```
 <script>
     a = "100"+200
     document.write(a)
+</script>
 ```
 
 ##### example - script + html
@@ -67,6 +69,7 @@ html문서의 body 부분을 다음과 같이 작성해 보자.
     result += "<td>1</td><td>2</td><td>3</td></tr>";
     result += </table>;
     document.write(result);
+</script>
 ```
 ##### example - 변수 입력받기
 ```
@@ -76,11 +79,12 @@ prompt("당신의 나이는?", "10");
 ##### PRACTICE - 키와 몸무게 입력받아 정상체중인지 아닌지 판별하기
 `prompt`를 이용하여 키, 몸무게를 입력받아 정상체중인지 아닌지 판별해 보자. 단, `평균체중=(현재체중-100)*0.9`이고, `0.95*평균체중<=정상체중<=1.05*평균체중` 이라고 하자.
 
-##### example - 제어문
+##### example - 조건문
 ```
-    var num = 100;
+    var num = 200;
     if(num>100){
-    document.write("num은 100보다 큽니다."}
+    document.write("num은 100보다 큽니다.");
+    }
 ```
 
 ###### 여기서 잠깐! 다음 식은 False로 반환된다
@@ -102,7 +106,8 @@ switch(a){
 ##### example - for문
 ```
 for(var i=0; i<10; i++){
-    document.write(i+"br");
+    document.write(i+"<br>");
+}
 ```
 
 ##### PRACTICE - 반복문

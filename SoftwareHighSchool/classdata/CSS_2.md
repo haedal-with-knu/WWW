@@ -88,7 +88,7 @@ overflow:hidden;
 ### 적용
  `CSS`파일과 `HTML`파일을 모두 만들었으므로 두 파일을 연결해보자!  
  방법은 아주 간단한데 `HTML`파일에 한줄만 추가해주면 된다.  
- ```buildoutcfg
+ ```
 <head>
     <title>haedal</title>
     <link rel="stylesheet" href="style.css">
