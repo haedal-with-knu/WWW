@@ -144,7 +144,7 @@ __참고문헌__
 PATH만 추가해주면 된다.
 
 ### 파이참 세팅
-#### Git Bash와 command
+#### Git Bash와 commandr
 ##### Git Bash
 ![gitbash](./statics/pycharm/git_bash.PNG)
 ##### Windows command
