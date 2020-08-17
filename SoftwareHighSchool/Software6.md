@@ -5,8 +5,8 @@ html문서의 body 부분을 다음과 같이 작성해 보자.
 ```
 <body>
     <script>
-        var age=prompt("당신의 나이는?", "0");
-        if(age>=20){
+        var age=prompt("당신의 나이는?", "1");
+        if(age>=19){
             document.write("성인");
         }
         else{
@@ -44,7 +44,7 @@ html문서의 body 부분을 다음과 같이 작성해 보자.
 <script>
     var a = true;
     var b = false;
-    var c = 5 > 2;
+    var c = 4 > 2;
     var d = Boolean(undefined);
 
     document.write(a, "<br>");
@@ -56,7 +56,7 @@ html문서의 body 부분을 다음과 같이 작성해 보자.
 ##### example - 문자 결합 연산자
 ```
 <script>
-    a = "100"+200
+    a = "20000"+200
     document.write(a)
 </script>
 ```
@@ -66,24 +66,29 @@ html문서의 body 부분을 다음과 같이 작성해 보자.
 <script>
     var result = "<table border='0.5'>";
     result += "<tr>";
-    result += "<td>1</td><td>2</td><td>3</td></tr>";
-    result += </table>;
+    result += "<th>이름</th><th>성별</th><th>나이</th>";
+    result += "</tr><tr>";
+    result += "<td>김주원</td><td>남자</td><td>20</td>";
+    result += "</tr>";
+    result += "</table>";
     document.write(result);
 </script>
 ```
 ##### example - 변수 입력받기
 ```
-prompt("당신의 나이는?", "10");
+prompt("몇 살이신가요?", "10");
 ```
 
-##### PRACTICE - 키와 몸무게 입력받아 정상체중인지 아닌지 판별하기
-`prompt`를 이용하여 키, 몸무게를 입력받아 정상체중인지 아닌지 판별해 보자. 단, `평균체중=(현재체중-100)*0.9`이고, `0.95*평균체중<=정상체중<=1.05*평균체중` 이라고 하자.
+##### PRACTICE - BMI지수를 이용해 비만도를 계산해보자
+`prompt`를 이용하여 키, 몸무게를 입력받아 BMI를 계산한 후 비만도를 계산해 보자.
+단, `BMI지수 = 몸무게(kg)/ (신장)^2`이고, BMI지수에 따른 결과는 다음과 같다고 하자.
+![BMI](./statics/classdata/bmi.PNG)
 
 ##### example - 조건문
 ```
     var num = 200;
-    if(num>100){
-    document.write("num은 100보다 큽니다.");
+    if(num>150){
+    document.write("num은 150보다 큽니다.");
     }
 ```
 
