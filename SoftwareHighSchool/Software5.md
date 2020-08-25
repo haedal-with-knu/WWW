@@ -24,7 +24,8 @@
 이제 주로 사용하는 문법들을 가지고 실습해보자.
 
 ### Markdown 실습
-
+<details markdown="1">
+<summary>접기/펼치기</summary>
 #### 글머리(Headers)
 문서를 만들 땐, 제목이 필요하겠죠? 제목 앞에는 #을 붙이면 된다. #의 개수를 늘려갈수록 하위 번호가 된다. 또한, #은 6개까지 사용가능하다.
 ```
@@ -151,6 +152,7 @@ _기울여서 쓰다가 **볼드로 쓰다가** 다시 기울여서 쓰기_
 ### 대망의 markdown 연습
 아무 markdown 입력기(pycharm, typora 등)나 이용해 마크다운 문서를 작성하여 다음처럼 출력하시오~   
 ![example](./statics/classdata/example.PNG)
+</detail>
 
 ### 그래서 Jekyll이 뭔데?
 `Jekyll`은 우리가 이때까지 이용한 `github`에서 개발한 툴이다. 또다른 개발 툴인 `Wordpress`와의 가장 큰 차이점이라고 한다면, `Jekyll`은 `정적 웹사이트(Static website)`라는 것이다.
