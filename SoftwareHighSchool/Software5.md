@@ -152,7 +152,7 @@ _기울여서 쓰다가 **볼드로 쓰다가** 다시 기울여서 쓰기_
 ### 대망의 markdown 연습
 아무 markdown 입력기(pycharm, typora 등)나 이용해 마크다운 문서를 작성하여 다음처럼 출력하시오~   
 ![example](./statics/classdata/example.PNG)
-</detail>
+</details>
 
 ### 그래서 Jekyll이 뭔데?
 `Jekyll`은 우리가 이때까지 이용한 `github`에서 개발한 툴이다. 또다른 개발 툴인 `Wordpress`와의 가장 큰 차이점이라고 한다면, `Jekyll`은 `정적 웹사이트(Static website)`라는 것이다.
