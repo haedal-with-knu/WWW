@@ -19,3 +19,16 @@
 4. [자기소개페이지 + 웹호스팅 : 나만의 홈페이지](documents/6.introductionWeb.md)
 
 # [소프트웨어 고등학교 참여](SoftwareHighSchool/SoftwareHighschool.md)
+
+# 2020-2 리뉴얼
+(*일단은 노션 기준으로 순서정했습니다.*)  
+(*마크다운 파일은 2020_2 폴더를 만들어 저장할게요*)
+1. [오픈소스 프로그래밍+세팅]()
+2. [HTML 기본]()
+3. [HTML 심화]()
+4. [CSS 기본]()
+5. [CSS 심화]()
+6. [BOOTSTRAP + TEMPLATE]()
+7. [JS]()
+8. [GITHUBPAGES]()
+
