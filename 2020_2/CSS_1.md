@@ -398,7 +398,7 @@ body { font-family :'나눔고딕', 'Malgun Gothic', sans-serif;}
 </html>
 ```
 코딩 결과는 다음과 같습니다.  
-![coding_result](./img/ex_result.PNG)  
+![coding_result](./img/ex_result.png)  
 덧붙이자면 IE에서는 기본적으로 구글 웹폰트를 사용할 수 없습니다. IE에서 구글 웹폰트를 사용하고 싶다면 [이 글](https://www.codingfactory.net/10453)을 참고하도록 합시다.
 
 ---

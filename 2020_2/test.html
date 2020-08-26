@@ -6,33 +6,26 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <style>
-    /* CSS의 우선순위를 파악하자*/
-    /* 6.상위 객체에 의해 상속된 속성 */
-    div {
-      color: red;
-    }
-    /* 5.태그 이름으로 지정한 속성 */
-    h1{
-      color: blue;
-    }
-    /* 4.클래스 이름으로 지정한 속성 */
-    .hello{
-      color: brown;
-    }
-    /* 3. id로 지정한 속성 */
-    #mulcam{
-      color: yellow;
-    }
-    /* 2. HTML에서 style을 직접 지정한 속성 */
-    /* 1. 속성값 위에 !important를 붙인 속성 */
-    h1{
-      color: black !important;
-    }
+@keyframes example {
+  0%   {top:0px; left:0px; background-color: red;}
+  25%  {top:0px; left:200px; background-color: green; border-radius:50%;}
+  50%  {top:200px; left:200px; background-color: yellow; border-radius:0%;}
+  75%  {top:200px; left:0px; background-color: blue; border-radius:50%;}
+  100% {top:0px; left:0px; background-color: red; border-radius:0%;}
+}
+div {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
   </style>
 </head>
 <body>
-  <div>
-    <h1 id="mulcam" class="hello" style="color: green;">Hello, Haedal!</h1>
-  </div>
+<div>DIV 1</div>
 </body>
 </html>
