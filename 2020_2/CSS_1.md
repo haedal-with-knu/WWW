@@ -398,25 +398,22 @@ body { font-family :'나눔고딕', 'Malgun Gothic', sans-serif;}
 </html>
 ```
 코딩 결과는 다음과 같습니다.  
-![coding_result](./img/ex_result.PNG)  
+![coding_result](./img/ex_result.png)  
 덧붙이자면 IE에서는 기본적으로 구글 웹폰트를 사용할 수 없습니다. IE에서 구글 웹폰트를 사용하고 싶다면 [이 글](https://www.codingfactory.net/10453)을 참고하도록 합시다.
 
 ---
 #### 다른 스타일 
 ##### color
-글자의 색을 지정합니다. -> red,yellow등 css에서 정해진 색상의 이름 / rgb값 / hex코드를 사용할 수 있습니다.
+글자의 색을 지정합니다. -> red, yellow등 css에서 정해진 색상의 이름 / rgb값 / hex코드를 사용할 수 있습니다.
 
 ##### text-decoration
-텍스트에 줄을 표시하거나 없애 줍니다.-> none,underline,line-through(취소선)
+텍스트에 줄을 표시하거나 없애 줍니다.-> none, underline, line-through(취소선)
 
 ##### text-align
-텍스트를 정렬해줍니다. ->start,end,left,right,center,justify (text-align:center; 중앙정렬을 아주 자주 사용합니다!)
+텍스트를 정렬해줍니다. ->start, end, left, right, center, justify (text-align:center; 중앙정렬을 아주 자주 사용합니다!)
 
 ##### background-color
-배경 색을 지정해줍니다.
-
-##### margin, padding
-여백을 조절해 줍니다. 
+배경 색을 지정해줍니다. 
 
 ##### border
 테두리 관련 속성입니다.
@@ -429,3 +426,13 @@ none, dashed, dotted, solid...
 
 4. border-radius: 박스 모서리 둥글게 만들기. 크기,백분율로 지정
 
+##### margin, padding
+여백을 조절해 줍니다. 
+margin은 border의 바깥쪽 여백을 조절할 수 있고,  
+padding은 border 안쪽의 여백을 조절할 수 있습니다.  
+
+
+---
+여기까지가 웹페이지에서 많이 쓰이는 속성들입니다.  
+물론 훨씬 많은 속성들과 그 값들이 여러분들을 기다리고 있으니  
+[이 곳](https://www.w3schools.com/css/default.asp)에서 찾아보면서 공부하시길 바랍니다.  
