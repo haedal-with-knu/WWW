@@ -28,7 +28,7 @@
 3. [HTML 심화]()
 4. [CSS 기본](./2020_2/CSS_1.md)
 5. [CSS 심화](./2020_2/CSS_2.md)
-6. [BOOTSTRAP + TEMPLATE]()
+6. [BOOTSTRAP + TEMPLATE](./2020_2/bootstrap.md)
 7. [JS]()
 8. [GITHUBPAGES]()
 9. [연극이 끝나고 난 뒤](./2020_2/Jekyll.md)
