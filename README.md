@@ -7,7 +7,7 @@
 4. [웹을 꾸며보자](./2020_2/CSS_1.md)
 5. [나만의 웹을 꾸며보자](./2020_2/CSS_2.md)
 6. [프레임워크로 나의 웹을 꾸며보자](./2020_2/bootstrap.md)
-7. [웹에 움직임을 넣어보자](Software6.md)
+7. [웹에 움직임을 넣어보자](SoftwareHighSchool/Software6.md)
 8. [git으로 나의 블로그를 만들자](documents/6.introductionWeb.md)
 9. [지킬로 기술 블로그를 만들자](./2020_2/Jekyll.md)
 ***
